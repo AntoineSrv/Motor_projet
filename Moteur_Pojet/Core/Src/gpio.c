@@ -78,7 +78,7 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Pin = Contact1_Pin|Contact2_Pin|Contact3_Pin|Contact4_Pin
                           |Bordure1_Pin|Bordure2_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /*Configure GPIO pin : PtPin */

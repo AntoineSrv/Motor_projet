@@ -122,7 +122,7 @@ int main(void)
 
 	codeur_start();
 
-	Motor_drv moteur1,moteur2;
+/*	Motor_drv moteur1,moteur2;
 
 	motor_Init(&moteur1,&moteur2);
 	moteur1.sens = 1;
@@ -139,7 +139,7 @@ int main(void)
 	moteur2.pwm_start(moteur2.Timer_Backward,moteur2.Channel_Backward);
 	moteur2.pwm_start(moteur2.Timer_Forward,moteur2.Channel_Forward);
 
-	for (alpha_test; alpha_test<1000; alpha_test++){
+	for (alpha_test; alpha_test<800; alpha_test++){
 		moteur1.alpha = alpha_test;
 		moteur1.update(moteur1);
 		moteur2.alpha = alpha_test;
@@ -156,7 +156,7 @@ int main(void)
 	}
 
 	moteur1.sens = 2;
-	for (alpha_test; alpha_test<1000; alpha_test++){
+	for (alpha_test; alpha_test<800; alpha_test++){
 		moteur1.alpha = alpha_test;
 		moteur1.update(moteur1);
 		moteur2.alpha = alpha_test;
@@ -169,6 +169,9 @@ int main(void)
 	moteur1.pwm_stop(moteur1.Timer_Forward,moteur1.Channel_Forward);
 	moteur2.pwm_stop(moteur2.Timer_Backward,moteur2.Channel_Backward);
 	moteur2.pwm_stop(moteur2.Timer_Forward,moteur2.Channel_Forward);
+
+
+	*/
 	/*
 	HAL_TIM_PWM_Start(&htim16, TIM_CHANNEL_1);
 	HAL_TIM_PWM_Start(&htim17, TIM_CHANNEL_1);
@@ -207,7 +210,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-
+/*
 		ADC_Select_CH0();
 		HAL_ADC_Start(&hadc1);
 		HAL_ADC_PollForConversion(&hadc1, 1000);
@@ -235,7 +238,7 @@ int main(void)
 		val[counter_val]=ADC_buffer[0];
 		counter_val++;
 
-
+*/
 		/*if (counter == 500){
 			moteur1.pwm_stop(moteur1.Timer,moteur1.Channel_Backward);
 			moteur1.pwm_stop(moteur1.Timer,moteur1.Channel_Forward);

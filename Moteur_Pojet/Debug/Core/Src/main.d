@@ -38,9 +38,9 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h \
  ../Core/Inc/adc.h ../Core/Inc/main.h ../Core/Inc/dma.h ../Core/Inc/spi.h \
  ../Core/Inc/tim.h ../Core/Inc/usart.h ../Core/Inc/gpio.h \
- C:/Users/serva/STM32CubeIDE/workspace_1.13.1/Moteur_Pojet/Core/Drv_Motor/pwm.h \
- C:/Users/serva/STM32CubeIDE/workspace_1.13.1/Moteur_Pojet/Core/Drv_Motor/encoder.h \
- C:/Users/serva/STM32CubeIDE/workspace_1.13.1/Moteur_Pojet/Core/Drv_Motor/bouton.h
+ C:/Users/serva/Documents/ESE/Projet/Moteur_Pojet/Motor_projet/Moteur_Pojet/Core/Drv_Motor/pwm.h \
+ C:/Users/serva/Documents/ESE/Projet/Moteur_Pojet/Motor_projet/Moteur_Pojet/Core/Drv_Motor/encoder.h \
+ C:/Users/serva/Documents/ESE/Projet/Moteur_Pojet/Motor_projet/Moteur_Pojet/Core/Drv_Motor/bouton.h
 ../Core/Inc/main.h:
 ../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h:
 ../Core/Inc/stm32g0xx_hal_conf.h:
@@ -86,6 +86,6 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Core/Inc/tim.h:
 ../Core/Inc/usart.h:
 ../Core/Inc/gpio.h:
-C:/Users/serva/STM32CubeIDE/workspace_1.13.1/Moteur_Pojet/Core/Drv_Motor/pwm.h:
-C:/Users/serva/STM32CubeIDE/workspace_1.13.1/Moteur_Pojet/Core/Drv_Motor/encoder.h:
-C:/Users/serva/STM32CubeIDE/workspace_1.13.1/Moteur_Pojet/Core/Drv_Motor/bouton.h:
+C:/Users/serva/Documents/ESE/Projet/Moteur_Pojet/Motor_projet/Moteur_Pojet/Core/Drv_Motor/pwm.h:
+C:/Users/serva/Documents/ESE/Projet/Moteur_Pojet/Motor_projet/Moteur_Pojet/Core/Drv_Motor/encoder.h:
+C:/Users/serva/Documents/ESE/Projet/Moteur_Pojet/Motor_projet/Moteur_Pojet/Core/Drv_Motor/bouton.h:
