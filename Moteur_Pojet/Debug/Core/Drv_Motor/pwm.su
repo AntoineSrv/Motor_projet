@@ -1,0 +1,8 @@
+../Core/Drv_Motor/pwm.c:13:5:pwm_start	16	static
+../Core/Drv_Motor/pwm.c:18:5:pwm_stop	16	static
+../Core/Drv_Motor/pwm.c:23:6:update_motor	16	static
+../Core/Drv_Motor/pwm.c:36:6:motor_Init	16	static
+../Core/Drv_Motor/pwm.c:103:6:pwm_start_test	8	static
+../Core/Drv_Motor/pwm.c:109:6:pwm_stop_test	8	static
+../Core/Drv_Motor/pwm.c:115:6:set_pwm_alpha	32	static
+../Core/Drv_Motor/pwm.c:148:6:set_pwm	24	static

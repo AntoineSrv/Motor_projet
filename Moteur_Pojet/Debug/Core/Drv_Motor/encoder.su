@@ -1,0 +1,2 @@
+../Core/Drv_Motor/encoder.c:12:6:codeur_start	8	static
+../Core/Drv_Motor/encoder.c:17:6:HAL_TIM_IC_CaptureCallback	16	static
