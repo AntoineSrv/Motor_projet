@@ -7,17 +7,20 @@
 C_SRCS += \
 ../Core/Drv_Motor/bouton.c \
 ../Core/Drv_Motor/encoder.c \
-../Core/Drv_Motor/pwm.c 
+../Core/Drv_Motor/pwm.c \
+../Core/Drv_Motor/task.c 
 
 OBJS += \
 ./Core/Drv_Motor/bouton.o \
 ./Core/Drv_Motor/encoder.o \
-./Core/Drv_Motor/pwm.o 
+./Core/Drv_Motor/pwm.o \
+./Core/Drv_Motor/task.o 
 
 C_DEPS += \
 ./Core/Drv_Motor/bouton.d \
 ./Core/Drv_Motor/encoder.d \
-./Core/Drv_Motor/pwm.d 
+./Core/Drv_Motor/pwm.d \
+./Core/Drv_Motor/task.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -27,7 +30,7 @@ Core/Drv_Motor/%.o Core/Drv_Motor/%.su Core/Drv_Motor/%.cyclo: ../Core/Drv_Motor
 clean: clean-Core-2f-Drv_Motor
 
 clean-Core-2f-Drv_Motor:
-	-$(RM) ./Core/Drv_Motor/bouton.cyclo ./Core/Drv_Motor/bouton.d ./Core/Drv_Motor/bouton.o ./Core/Drv_Motor/bouton.su ./Core/Drv_Motor/encoder.cyclo ./Core/Drv_Motor/encoder.d ./Core/Drv_Motor/encoder.o ./Core/Drv_Motor/encoder.su ./Core/Drv_Motor/pwm.cyclo ./Core/Drv_Motor/pwm.d ./Core/Drv_Motor/pwm.o ./Core/Drv_Motor/pwm.su
+	-$(RM) ./Core/Drv_Motor/bouton.cyclo ./Core/Drv_Motor/bouton.d ./Core/Drv_Motor/bouton.o ./Core/Drv_Motor/bouton.su ./Core/Drv_Motor/encoder.cyclo ./Core/Drv_Motor/encoder.d ./Core/Drv_Motor/encoder.o ./Core/Drv_Motor/encoder.su ./Core/Drv_Motor/pwm.cyclo ./Core/Drv_Motor/pwm.d ./Core/Drv_Motor/pwm.o ./Core/Drv_Motor/pwm.su ./Core/Drv_Motor/task.cyclo ./Core/Drv_Motor/task.d ./Core/Drv_Motor/task.o ./Core/Drv_Motor/task.su
 
 .PHONY: clean-Core-2f-Drv_Motor
 

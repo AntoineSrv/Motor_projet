@@ -7,9 +7,12 @@
 
 #include "bouton.h"
 
-struct CAPT_BTN_MAP_struct CAPT_BTN_MAP;
+CAPT capteurs;
 
-
+// contact1 gauche
+// contact2 devant
+// contact3 derrière
+// contact4 droite
 void HAL_GPIO_EXTI_Rising_Callback(uint16_t GPIO_Pin)
 {
 	switch (GPIO_Pin)
@@ -42,15 +45,15 @@ void HAL_GPIO_EXTI_Rising_Callback(uint16_t GPIO_Pin)
 		HAL_GPIO_TogglePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin);
 		break;
 	case Bordure1_Pin :
-		HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
-		HAL_GPIO_TogglePin(LED_WHITE_GPIO_Port, LED_WHITE_Pin);
 		HAL_GPIO_TogglePin(LED_BLUE_GPIO_Port, LED_BLUE_Pin);
+		capteurs.BORDURE_1 = TRUE;
+
 		break;
 
 	case Bordure2_Pin :
-		HAL_GPIO_TogglePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin);
-		HAL_GPIO_TogglePin(LED_YELLOW_GPIO_Port, LED_GREEN_Pin);
-		HAL_GPIO_TogglePin(LED_BLUE_GPIO_Port, LED_BLUE_Pin);
+		HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
+		capteurs.BORDURE_2 = TRUE;
+
 		break;
 
 	}

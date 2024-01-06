@@ -22,7 +22,7 @@ typedef struct Motor_drv_struct
 {
 	int Channel_Forward;
 	int Channel_Backward;
-	int sens;
+	int sens;	//il faut inverser les sens pour bouger de façons rectiligne
 	int alpha;
 	int alpha_temp; //pas utilisé pour l'instant
 	float vitesse;
